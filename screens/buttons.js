@@ -10,7 +10,7 @@ import {ButtonGroup} from 'react-native-elements'
 
 // This
 
-const ColoredText = (color) => (props) => <Text {...props} style={{color}} />;
+const ColoredText = (color: 'white') => (props) => <Text {...props} style={{color}} />;
 
 // Is the same as
 
